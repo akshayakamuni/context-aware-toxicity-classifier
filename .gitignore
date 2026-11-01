@@ -1,0 +1,41 @@
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Secrets
+.env
+.env.*
+
+# Raw and processed datasets
+datasets/raw/*
+datasets/processed/*
+datasets/external/*
+!datasets/raw/.gitkeep
+!datasets/processed/.gitkeep
+!datasets/external/.gitkeep
+
+# Model checkpoints
+checkpoints/
+models/
+*.pth
+*.pt
+*.ckpt
+*.safetensors
+
+# Experiment outputs
+outputs/
+logs/
+wandb/
+mlruns/
+
+# Editor files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
