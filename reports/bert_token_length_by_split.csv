@@ -1,0 +1,10 @@
+﻿split,input_type,records,mean,median,p90,p95,p99,maximum
+dev,Current comment,4526,46.16,21.0,99.0,172.25,416.25,2138
+dev,Parent comment,2390,64.45,29.0,149.0,216.0,514.66,1889
+dev,Current + parent pair,2390,110.54,59.0,246.1,357.55,685.31,2744
+test,Current comment,5307,50.45,24.0,105.0,162.0,415.98,2412
+test,Parent comment,2875,62.33,33.0,125.0,186.6,471.0,2078
+test,Current + parent pair,2875,106.68,67.0,214.0,301.6,637.26,2985
+train,Current comment,13584,45.84,24.0,94.0,149.0,373.0,2967
+train,Parent comment,7570,53.21,31.0,117.0,165.0,332.0,2967
+train,Current + parent pair,7570,94.94,63.0,194.1,264.55,491.31,2975

@@ -1,0 +1,6 @@
+label,records,percentage_of_all_official_records,mean_ancestor_depth,median_ancestor_depth,records_with_parent_context,parent_context_percentage,records_with_two_ancestors,two_ancestor_percentage,records_with_three_ancestors,three_ancestor_percentage
+Neutral,19107,81.595,1.0866,1.0,10418,54.525,5683,29.743,2588,13.545
+IdentityDirectedAbuse,2305,9.843,1.0399,1.0,1250,54.23,663,28.764,292,12.668
+AffiliationDirectedAbuse,1199,5.12,1.0517,1.0,670,55.88,351,29.274,150,12.51
+PersonDirectedAbuse,1054,4.501,1.3083,1.0,640,60.721,382,36.243,198,18.786
+CounterSpeech,217,0.927,1.5806,1.0,149,68.664,106,48.848,51,23.502

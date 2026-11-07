@@ -1,0 +1,61 @@
+﻿label,input_type,max_length,records,truncated_records,truncation_percentage
+AffiliationDirectedAbuse,Current + parent pair,64,670,417,62.24
+AffiliationDirectedAbuse,Current + parent pair,128,670,204,30.45
+AffiliationDirectedAbuse,Current + parent pair,256,670,60,8.96
+AffiliationDirectedAbuse,Current + parent pair,512,670,12,1.79
+AffiliationDirectedAbuse,Current comment,64,1199,352,29.36
+AffiliationDirectedAbuse,Current comment,128,1199,151,12.59
+AffiliationDirectedAbuse,Current comment,256,1199,47,3.92
+AffiliationDirectedAbuse,Current comment,512,1199,9,0.75
+AffiliationDirectedAbuse,Parent comment,64,670,160,23.88
+AffiliationDirectedAbuse,Parent comment,128,670,64,9.55
+AffiliationDirectedAbuse,Parent comment,256,670,15,2.24
+AffiliationDirectedAbuse,Parent comment,512,670,4,0.6
+CounterSpeech,Current + parent pair,64,149,85,57.05
+CounterSpeech,Current + parent pair,128,149,42,28.19
+CounterSpeech,Current + parent pair,256,149,18,12.08
+CounterSpeech,Current + parent pair,512,149,6,4.03
+CounterSpeech,Current comment,64,217,60,27.65
+CounterSpeech,Current comment,128,217,29,13.36
+CounterSpeech,Current comment,256,217,9,4.15
+CounterSpeech,Current comment,512,217,6,2.76
+CounterSpeech,Parent comment,64,149,42,28.19
+CounterSpeech,Parent comment,128,149,11,7.38
+CounterSpeech,Parent comment,256,149,1,0.67
+CounterSpeech,Parent comment,512,149,0,0.0
+IdentityDirectedAbuse,Current + parent pair,64,1250,628,50.24
+IdentityDirectedAbuse,Current + parent pair,128,1250,299,23.92
+IdentityDirectedAbuse,Current + parent pair,256,1250,84,6.72
+IdentityDirectedAbuse,Current + parent pair,512,1250,18,1.44
+IdentityDirectedAbuse,Current comment,64,2305,493,21.39
+IdentityDirectedAbuse,Current comment,128,2305,199,8.63
+IdentityDirectedAbuse,Current comment,256,2305,68,2.95
+IdentityDirectedAbuse,Current comment,512,2305,28,1.21
+IdentityDirectedAbuse,Parent comment,64,1250,292,23.36
+IdentityDirectedAbuse,Parent comment,128,1250,108,8.64
+IdentityDirectedAbuse,Parent comment,256,1250,27,2.16
+IdentityDirectedAbuse,Parent comment,512,1250,5,0.4
+Neutral,Current + parent pair,64,10418,4983,47.83
+Neutral,Current + parent pair,128,10418,2184,20.96
+Neutral,Current + parent pair,256,10418,647,6.21
+Neutral,Current + parent pair,512,10418,140,1.34
+Neutral,Current comment,64,19107,3031,15.86
+Neutral,Current comment,128,19107,1191,6.23
+Neutral,Current comment,256,19107,381,1.99
+Neutral,Current comment,512,19107,90,0.47
+Neutral,Parent comment,64,10418,2506,24.05
+Neutral,Parent comment,128,10418,934,8.97
+Neutral,Parent comment,256,10418,260,2.5
+Neutral,Parent comment,512,10418,67,0.64
+PersonDirectedAbuse,Current + parent pair,64,640,372,58.13
+PersonDirectedAbuse,Current + parent pair,128,640,191,29.84
+PersonDirectedAbuse,Current + parent pair,256,640,68,10.62
+PersonDirectedAbuse,Current + parent pair,512,640,13,2.03
+PersonDirectedAbuse,Current comment,64,1054,260,24.67
+PersonDirectedAbuse,Current comment,128,1054,116,11.01
+PersonDirectedAbuse,Current comment,256,1054,34,3.23
+PersonDirectedAbuse,Current comment,512,1054,6,0.57
+PersonDirectedAbuse,Parent comment,64,640,181,28.28
+PersonDirectedAbuse,Parent comment,128,640,73,11.41
+PersonDirectedAbuse,Parent comment,256,640,21,3.28
+PersonDirectedAbuse,Parent comment,512,640,4,0.62

@@ -1,0 +1,8 @@
+split,termination_reason,records
+dev,parent_missing_from_metadata,4376
+dev,parent_excluded_from_official_splits,150
+test,parent_missing_from_metadata,5172
+test,parent_excluded_from_official_splits,135
+train,parent_missing_from_metadata,13144
+train,parent_excluded_from_official_splits,439
+train,parent_text_missing,1

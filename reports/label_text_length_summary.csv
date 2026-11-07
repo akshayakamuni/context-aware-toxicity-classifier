@@ -1,0 +1,6 @@
+label,records,mean_length,median_length,minimum_length,maximum_length,texts_below_20_chars,texts_above_500_chars
+Neutral,19107,167.86,81.0,0,9075,2155,1234
+IdentityDirectedAbuse,2305,226.26,98.0,3,10865,198,195
+AffiliationDirectedAbuse,1199,277.62,142.0,3,10989,47,160
+PersonDirectedAbuse,1054,238.26,107.0,4,8541,87,115
+CounterSpeech,217,322.78,124.0,11,4138,3,31

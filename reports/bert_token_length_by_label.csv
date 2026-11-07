@@ -1,0 +1,16 @@
+﻿label,input_type,records,mean,median,p90,p95,p99,maximum
+AffiliationDirectedAbuse,Current comment,1199,68.65,37.0,152.0,228.0,472.08,2412
+AffiliationDirectedAbuse,Parent comment,670,59.6,35.0,124.2,168.55,456.44,1511
+AffiliationDirectedAbuse,Current + parent pair,670,126.82,84.0,238.8,329.55,657.79,2744
+CounterSpeech,Current comment,217,79.07,31.0,179.0,248.8,960.0,960
+CounterSpeech,Parent comment,149,48.96,29.0,100.4,141.2,202.68,476
+CounterSpeech,Current + parent pair,149,135.54,75.0,291.8,384.4,968.2,989
+IdentityDirectedAbuse,Current comment,2305,58.3,27.0,118.0,189.8,531.0,2967
+IdentityDirectedAbuse,Parent comment,1250,54.97,28.0,118.1,168.0,347.69,2967
+IdentityDirectedAbuse,Current + parent pair,1250,105.47,65.0,214.0,296.55,599.3,2975
+Neutral,Current comment,19107,44.01,22.0,91.0,148.0,371.94,2138
+Neutral,Parent comment,10418,57.42,31.0,121.0,181.0,425.0,2967
+Neutral,Current + parent pair,10418,97.55,62.0,200.0,282.0,593.66,2985
+PersonDirectedAbuse,Current comment,1054,60.84,28.0,142.4,202.05,384.76,1965
+PersonDirectedAbuse,Parent comment,640,64.2,35.0,137.0,190.4,456.5,1889
+PersonDirectedAbuse,Current + parent pair,640,123.3,75.5,266.7,368.15,609.74,1971

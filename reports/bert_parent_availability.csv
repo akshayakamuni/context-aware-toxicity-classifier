@@ -1,0 +1,15 @@
+﻿official_split,parent_status,records
+dev,no_parent_id,357
+dev,parent_missing_from_metadata,1712
+dev,parent_not_in_official_splits,66
+dev,parent_text_missing,1
+dev,same_official_split_parent,2390
+test,no_parent_id,423
+test,parent_missing_from_metadata,1930
+test,parent_not_in_official_splits,79
+test,same_official_split_parent,2875
+train,no_parent_id,880
+train,parent_missing_from_metadata,4880
+train,parent_not_in_official_splits,251
+train,parent_text_missing,3
+train,same_official_split_parent,7570

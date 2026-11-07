@@ -1,0 +1,79 @@
+﻿duplicate_text,text_length,record_count,record_ids,official_labels,official_splits,different_labels,different_parent_ids,different_threads,unique_parent_count,unique_thread_count,records_with_parent_text,records_without_parent_text,parent_statuses,context_annotations
+#,1,2,"es3cfc4, es36h5o",Neutral,dev | train,False,True,True,2,2,0,2,parent_missing_from_metadata,NA
+.,1,3,"ei81hmm, eilh9ur, auuw1j-title",Neutral,dev | train,False,True,True,3,3,1,2,parent_missing_from_metadata | same_official_split_parent,NA
+:(,2,4,"ehjo4tk, ejerjrt, epywdar, erz7d3v",Neutral,dev | train,False,True,True,4,4,3,1,parent_missing_from_metadata | parent_not_in_official_splits | same_official_split_parent,NA
+And?,4,2,"ejmwnh4, eqg14cn",Neutral,test | train,False,True,True,2,2,2,0,same_official_split_parent,NA
+Based,5,8,"egie8x0, eke7l80, elkuzqa, em9bshv, es3gqkz, esap64q, etc7loi, esmk5c3",Neutral | PersonDirectedAbuse,test | train,True,True,True,8,8,5,3,parent_missing_from_metadata | same_official_split_parent,NA | PreviousContent
+Based.,6,3,"ek1zitd, elosn7t, es3czpz",IdentityDirectedAbuse | Neutral,dev | train,True,True,True,3,3,3,0,parent_not_in_official_splits | same_official_split_parent,NA | PreviousContent
+Bruh,4,2,"ejd7omz, eikn22i",Neutral,dev | train,False,True,True,2,2,1,1,parent_missing_from_metadata | parent_not_in_official_splits,NA
+Bullshit,8,2,"efktp2u, eqrb6ix",IdentityDirectedAbuse | Neutral,dev | test,True,True,True,2,2,2,0,same_official_split_parent,NA | PreviousContent
+Cognitive dissonance,20,2,"epjujvk, bsqffd-title",Neutral,dev | test,False,True,True,2,2,1,1,parent_missing_from_metadata | same_official_split_parent,NA
+Cope,4,3,"efmvvew, ek1ffju, eslcspq",Neutral,dev | train,False,True,True,3,3,2,1,parent_missing_from_metadata | same_official_split_parent,NA
+Damn,4,2,"eron0fa, eluutph",Neutral,dev | train,False,True,True,2,2,2,0,same_official_split_parent,NA
+Done,4,4,"ei89uvp, ep95a97, emd1ny7, emd25ya",Neutral,dev | train,False,True,True,4,3,4,0,same_official_split_parent,NA
+Exactly,7,3,"eqbxdfz, eoc28wy, ejhvym1",IdentityDirectedAbuse | Neutral,dev | train,True,True,True,3,3,2,1,parent_missing_from_metadata | parent_not_in_official_splits | same_official_split_parent,NA | PreviousContent
+F,1,11,"eh2w69e, eh2yvvn, eh310m4, ejuol65, eftd8tg, ekspzfd, ejz0zdi, ejz36vr, ejzgfk2, ejzsibk, ek1d5bx",Neutral,dev | test | train,False,True,True,6,5,10,1,parent_missing_from_metadata | same_official_split_parent,NA
+Flair checks out,16,2,"egquxhb, eoindgi",Neutral,dev | train,False,True,True,2,2,2,0,same_official_split_parent,NA
+Fuck,4,3,"ekxjoxd, ertwr70, eggd9fp",Neutral,dev | train,False,True,True,3,3,1,2,parent_missing_from_metadata | same_official_split_parent,NA
+Get out,7,3,"elvl06i, epn92ax, eg6i3l3",Neutral | PersonDirectedAbuse,dev | test | train,True,True,True,3,3,2,1,parent_missing_from_metadata | parent_not_in_official_splits | same_official_split_parent,CurrentContent | NA
+Good bot,8,3,"elzw7ao, esqb39e, etnav8b",Neutral,dev | train,False,True,True,3,3,3,0,parent_not_in_official_splits | same_official_split_parent,NA
+Got it.,7,2,"eo7itgq, erxrwxo",Neutral,dev | train,False,True,True,2,2,2,0,same_official_split_parent,NA
+Hahahahaha,10,2,"ep8puy3, ek0gw9r",Neutral,test | train,False,True,True,2,2,2,0,same_official_split_parent,NA
+Huh?,4,2,"epx4u90, eqsrt5d",Neutral,test | train,False,True,True,2,2,2,0,same_official_split_parent,NA
+"I appreciate your enthusiasm for sarcasm, but to become a master you mustn't use /s. [linebreak]  [linebreak] *I'm a human being, and this action was performed manually.*",170,3,"el648d8, eozt7us, ekxaqmx",Neutral,test | train,False,True,True,3,3,3,0,same_official_split_parent,NA
+I don't get it,14,3,"ek2l9iu, eozlsts, eookcqh",Neutral,dev | train,False,True,True,3,3,1,2,parent_missing_from_metadata | same_official_split_parent,NA
+I know.,7,2,"eiib0xq, etig3hd",Neutral,dev | test,False,True,True,2,2,2,0,same_official_split_parent,NA
+I wish,6,2,"es3qwpc, ek0q64v",Neutral,dev | test,False,True,True,2,2,2,0,same_official_split_parent,NA
+I'm sorry,9,2,"epzl127, et3ofi3",Neutral,dev | train,False,True,True,2,2,2,0,same_official_split_parent,NA
+Ironic,6,4,"eig55qn, eps6wro, el2tfot, emos56o",Neutral,dev | test | train,False,True,True,4,4,2,2,parent_missing_from_metadata | same_official_split_parent,NA
+Kek,3,2,"eq1ko6x, elwtqhk",Neutral,dev | train,False,True,True,2,2,2,0,same_official_split_parent,NA
+Kill yourself,13,3,"eig83gh, eirc38p, elxge3u",PersonDirectedAbuse,dev | train,False,True,True,3,3,2,1,parent_missing_from_metadata | parent_not_in_official_splits,CurrentContent
+Link?,5,2,"eikwxrm, eio0fog",Neutral,dev | test,False,True,True,2,2,0,2,parent_missing_from_metadata,NA
+Lmao,4,4,"eimjzps, epmvto6, eqg6lzi, eg8kr66",Neutral,dev | train,False,True,True,4,4,3,1,parent_missing_from_metadata | parent_not_in_official_splits | same_official_split_parent,NA
+Lol,3,7,"eg5ih8e, eg5jr81, eg7uzxa, em3oaxn, es3yms6, ei2y2z2, es5sv3y",Neutral,dev | train,False,True,True,7,6,5,2,parent_missing_from_metadata | same_official_split_parent,NA
+Nice,4,4,"et3c5tu, eikrpwa, eokc501, ejzfzqm",Neutral,dev | test | train,False,True,True,4,4,3,1,parent_missing_from_metadata | same_official_split_parent,NA
+No,2,6,"eltwybz, eq2nvmc, eisi8by, elkw4rs, eosbr76, eqwcup0",Neutral,test | train,False,True,True,6,6,5,1,parent_missing_from_metadata | same_official_split_parent,NA
+No u,4,4,"eg8hizv, eharwrg, etfbzwn, etfe7f7",IdentityDirectedAbuse | Neutral,dev | train,True,True,True,4,3,4,0,same_official_split_parent,NA | PreviousContent
+No.,3,2,"erwe5w6, epv8zio",Neutral,test | train,False,True,True,2,2,1,1,parent_missing_from_metadata | same_official_split_parent,NA
+Ok,2,4,"elvzy4o, em4v9a9, epiwgom, epv9jsj",Neutral,dev | test | train,False,True,True,4,4,2,2,parent_missing_from_metadata | same_official_split_parent,NA
+Okay,4,2,"eiq5w9l, eos2uiu",Neutral,test | train,False,True,True,2,2,2,0,same_official_split_parent,NA
+Oof,3,4,"es8mz2i, efutvpy, eg84mhi, etmk47s",Neutral,dev | test | train,False,True,True,4,4,1,3,parent_missing_from_metadata | same_official_split_parent,NA
+Pepperidge Farm remembers!,26,2,"eloh8o6, eg9lq11",Neutral,dev | train,False,True,True,2,2,2,0,same_official_split_parent,NA
+Repost,6,2,"eu8ajvc, eojg2mk",Neutral,dev | train,False,True,True,2,2,0,2,parent_missing_from_metadata,NA
+Same,4,8,"eguuxn9, eh38uft, emk2pkw, eoo4547, epyi763, efleqfz, elej7rq, elftzaz",IdentityDirectedAbuse | Neutral,dev | train,True,True,True,8,7,8,0,same_official_split_parent,NA | PreviousContent
+Sauce?,6,2,"ehnk8gy, ejyqi3r",Neutral,dev | train,False,True,True,2,2,0,2,parent_missing_from_metadata,NA
+Seconded.,9,2,"ehzl609, embfmlq",IdentityDirectedAbuse | Neutral,dev | train,True,True,True,2,2,2,0,same_official_split_parent,NA | PreviousContent
+Seek help,9,2,"ehqloj4, esl8qjv",Neutral,dev | train,False,True,True,2,2,1,1,parent_missing_from_metadata | same_official_split_parent,NA
+So?,3,2,"egwhj6e, eni73o3",Neutral,test | train,False,True,True,2,2,2,0,same_official_split_parent,NA
+Source?,7,9,"ej9u3nw, el04y8r, el04yjd, el04yvg, ehepfdp, en08o6f, ejjna03, eju3lce, eqohzv6",Neutral,dev | test | train,False,True,True,9,7,8,1,parent_missing_from_metadata | same_official_split_parent,NA
+Thank you,9,6,"ejlwkn1, eqic4yd, etuksz4, eua9rc0, c0hqgl-title, ehfm0vc",Neutral,dev | train,False,True,True,6,6,5,1,parent_missing_from_metadata | same_official_split_parent,NA
+Thank you!,10,4,"elprgot, esbn1uc, ei8e2ns, es3lbg7",Neutral,dev | test | train,False,True,True,4,4,4,0,same_official_split_parent,NA
+Thank you.,10,7,"ej4bgjv, ekfedbu, ekfew2r, ekff8a9, ei15qh9, embjg2g, eiueuys",Neutral,dev | test | train,False,True,True,7,5,5,2,parent_missing_from_metadata | same_official_split_parent,NA
+Thanks,6,2,"ejkwbe0, ekgl3ug",Neutral,dev | test,False,True,True,2,2,2,0,same_official_split_parent,NA
+This,4,3,"eqjebx0, etuz1y4, ek9x01y",Neutral,test | train,False,True,True,3,3,3,0,same_official_split_parent,NA
+This but unironically,21,3,"eghyrx6, es6gwtk, eldm3gk",IdentityDirectedAbuse | Neutral,test | train,True,True,True,3,3,3,0,same_official_split_parent,NA | PreviousContent
+Too late,8,2,"eiole75, eo2qjbz",Neutral,test | train,False,True,True,2,2,1,1,parent_missing_from_metadata | same_official_split_parent,NA
+We live in a society,20,3,"ek2wiiz, ep1wkon, bxd713-title",Neutral,dev | train,False,True,True,3,3,0,3,parent_missing_from_metadata,NA
+What?,5,5,"ekhefs3, eonwv79, ei7oguk, erxd5tf, ejtusmq",Neutral,dev | test | train,False,True,True,5,5,4,1,parent_missing_from_metadata | parent_not_in_official_splits | same_official_split_parent,NA
+Why,3,2,"bxc6gh-title, esgniet",Neutral,dev | train,False,True,True,2,2,1,1,parent_missing_from_metadata | same_official_split_parent,NA
+Why?,4,4,"eg1080l, ehs1vzu, eieuiqb, eorksph",Neutral,test | train,False,True,True,4,4,3,1,parent_missing_from_metadata | same_official_split_parent,NA
+Wow,3,2,"ejn6zr8, eiys0pt",Neutral,test | train,False,True,True,2,2,0,2,parent_missing_from_metadata,NA
+Wtf,3,2,"eowvl3v, eo8bzar",Neutral,dev | test,False,True,True,2,2,1,1,parent_missing_from_metadata | parent_not_in_official_splits,NA
+Yep.,4,4,"ehja4zj, ejl7qzg, eod0w2k, eil46yc",Neutral,dev | train,False,True,True,4,4,4,0,same_official_split_parent,NA
+Yes,3,8,"ej9m5s7, epg8dp0, etsetqo, eu62lz8, eikuq70, ei8sp39, ekylyrc, eqggtob",AffiliationDirectedAbuse | IdentityDirectedAbuse | Neutral,dev | test | train,True,True,True,8,8,6,2,parent_missing_from_metadata | same_official_split_parent,NA | PreviousContent
+Yes.,4,7,"ep0t00b, eslkl3t, esxgrgw, etbamz0, eo0wd2p, ekylxtt, eq17i8b",Neutral | PersonDirectedAbuse,dev | test | train,True,True,True,7,7,5,2,parent_missing_from_metadata | same_official_split_parent,NA | PreviousContent
+Yikes,5,4,"efoelcd, ej98qft, emhmkzk, ejp1wjd",Neutral,test | train,False,True,True,4,4,2,2,parent_missing_from_metadata | same_official_split_parent,NA
+"You can type 10,000 characters and you decided that these were the one's that you wanted. [linebreak]  [linebreak] I am a bot. [Contact for questions](https://www.reddit.com/message/compose/?to=lightumbra)",205,2,"es665pb, es3voww",Neutral,dev | train,False,True,True,2,2,2,0,same_official_split_parent,NA
+\[removed\],11,3,"ei80wpg, ei81rh3, ejbc0u7",Neutral,dev | train,False,True,True,3,2,1,2,parent_missing_from_metadata | same_official_split_parent,NA
+^,1,2,"ehsov8h, ehkt4ft",Neutral,test | train,False,True,True,2,2,2,0,same_official_split_parent,NA
+lol,3,2,"eh09eyp, c835cm-title",Neutral,test | train,False,True,True,2,2,0,2,parent_missing_from_metadata,NA
+no,2,3,"el5ld5l, esk8bbn, ejzgs0y",Neutral,dev | train,False,True,True,3,3,2,1,parent_missing_from_metadata | same_official_split_parent,NA
+no u,4,3,"elld9g5, eqgvuvy, eler54l",Neutral,test | train,False,True,True,3,3,3,0,parent_not_in_official_splits | same_official_split_parent,NA
+ok,2,2,"ehwbsub, ep4wvch",Neutral,dev | train,False,True,True,2,2,1,1,parent_missing_from_metadata | same_official_split_parent,NA
+prove it,8,2,"eqg2kf2, eikihiz",Neutral,test | train,False,True,True,2,2,2,0,same_official_split_parent,NA
+r/lostredditors,15,2,"emyuh5g, epj3cdo",Neutral,dev | test,False,True,True,2,2,1,1,parent_missing_from_metadata | same_official_split_parent,NA
+r/menkampf,10,4,"eu9m176, elcs6sq, eldzscp, etimkyp",Neutral,test | train,False,True,True,4,3,4,0,same_official_split_parent,NA
+r/tumblratrest,14,2,"eg6kb3n, epvmfqn",Neutral,test | train,False,True,True,2,2,0,2,parent_missing_from_metadata,NA
+this but unironically,21,4,"ekgtax3, epfbidc, es61wch, eslcr0h",Neutral,dev | train,False,True,True,4,4,4,0,same_official_split_parent,NA
+u/userleansbot,14,3,"ek7ljt3, en18pzz, etlvrg2",Neutral,dev | train,False,True,True,3,3,3,0,same_official_split_parent,NA
+yeah,4,2,"emit89x, eip2d7f",Neutral,test | train,False,True,True,2,2,2,0,parent_not_in_official_splits | same_official_split_parent,NA

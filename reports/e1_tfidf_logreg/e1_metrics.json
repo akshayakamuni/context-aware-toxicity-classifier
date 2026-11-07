@@ -1,0 +1,198 @@
+{
+    "experiment": "E1_TFIDF_LogisticRegression",
+    "input": "current_comment_only",
+    "dataset": "CAD_v1.1",
+    "random_seed": 42,
+    "scikit_learn_version": "1.9.0",
+    "split_sizes": {
+        "train": 13584,
+        "dev": 4526,
+        "test": 5307
+    },
+    "tfidf": {
+        "ngram_range": [
+            1,
+            2
+        ],
+        "min_df": 2,
+        "max_features": 200000,
+        "sublinear_tf": true,
+        "strip_accents": "unicode",
+        "lowercase": true
+    },
+    "logistic_regression": {
+        "C": 1.0,
+        "solver": "liblinear",
+        "max_iter": 2000,
+        "class_weight": "balanced"
+    },
+    "vocabulary_size": 50527,
+    "threshold_selection": "per-label F1 maximization on development set",
+    "thresholds": {
+        "Neutral": 0.29000000000000004,
+        "IdentityDirectedAbuse": 0.49000000000000005,
+        "AffiliationDirectedAbuse": 0.5400000000000001,
+        "PersonDirectedAbuse": 0.5800000000000002,
+        "CounterSpeech": 0.38000000000000006
+    },
+    "dev_default_threshold_metrics": {
+        "macro_f1": 0.38258897949417114,
+        "micro_f1": 0.7360224937817671,
+        "macro_precision": 0.3794077201769467,
+        "macro_recall": 0.41099298765909636,
+        "hamming_loss": 0.10786566504639859,
+        "subset_accuracy": 0.6813963764913831
+    },
+    "dev_default_threshold_per_label": {
+        "Neutral": {
+            "precision": 0.8820809248554913,
+            "recall": 0.8266522210184182,
+            "f1": 0.8534675615212528,
+            "positive_support": 3692
+        },
+        "IdentityDirectedAbuse": {
+            "precision": 0.3333333333333333,
+            "recall": 0.3686635944700461,
+            "f1": 0.350109409190372,
+            "positive_support": 434
+        },
+        "AffiliationDirectedAbuse": {
+            "precision": 0.3392330383480826,
+            "recall": 0.46747967479674796,
+            "f1": 0.39316239316239315,
+            "positive_support": 246
+        },
+        "PersonDirectedAbuse": {
+            "precision": 0.21739130434782608,
+            "recall": 0.36585365853658536,
+            "f1": 0.2727272727272727,
+            "positive_support": 205
+        },
+        "CounterSpeech": {
+            "precision": 0.125,
+            "recall": 0.02631578947368421,
+            "f1": 0.043478260869565216,
+            "positive_support": 38
+        }
+    },
+    "dev_tuned_threshold_metrics": {
+        "macro_f1": 0.40368200465119647,
+        "micro_f1": 0.7940112540192926,
+        "macro_precision": 0.3834750979182509,
+        "macro_recall": 0.42738447977960997,
+        "hamming_loss": 0.0905877154220062,
+        "subset_accuracy": 0.7240388864339372
+    },
+    "dev_tuned_threshold_per_label": {
+        "Neutral": {
+            "precision": 0.8374190564292322,
+            "recall": 0.9807692307692307,
+            "f1": 0.9034431137724551,
+            "positive_support": 3692
+        },
+        "IdentityDirectedAbuse": {
+            "precision": 0.32815533980582523,
+            "recall": 0.38940092165898615,
+            "f1": 0.3561643835616438,
+            "positive_support": 434
+        },
+        "AffiliationDirectedAbuse": {
+            "precision": 0.3893129770992366,
+            "recall": 0.4146341463414634,
+            "f1": 0.4015748031496063,
+            "positive_support": 246
+        },
+        "PersonDirectedAbuse": {
+            "precision": 0.2814070351758794,
+            "recall": 0.2731707317073171,
+            "f1": 0.27722772277227725,
+            "positive_support": 205
+        },
+        "CounterSpeech": {
+            "precision": 0.08108108108108109,
+            "recall": 0.07894736842105263,
+            "f1": 0.08,
+            "positive_support": 38
+        }
+    },
+    "test_default_threshold_metrics": {
+        "macro_f1": 0.34676544394806574,
+        "micro_f1": 0.7314434912346139,
+        "macro_precision": 0.3335482888807697,
+        "macro_recall": 0.3671117231518631,
+        "hamming_loss": 0.10853589598643301,
+        "subset_accuracy": 0.6713774260410779
+    },
+    "test_default_threshold_per_label": {
+        "Neutral": {
+            "precision": 0.878921568627451,
+            "recall": 0.8258866881621373,
+            "f1": 0.8515791973402992,
+            "positive_support": 4342
+        },
+        "IdentityDirectedAbuse": {
+            "precision": 0.3142857142857143,
+            "recall": 0.3424124513618677,
+            "f1": 0.32774674115456237,
+            "positive_support": 514
+        },
+        "AffiliationDirectedAbuse": {
+            "precision": 0.2571428571428571,
+            "recall": 0.371900826446281,
+            "f1": 0.30405405405405406,
+            "positive_support": 242
+        },
+        "PersonDirectedAbuse": {
+            "precision": 0.21739130434782608,
+            "recall": 0.29535864978902954,
+            "f1": 0.2504472271914132,
+            "positive_support": 237
+        },
+        "CounterSpeech": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "positive_support": 66
+        }
+    },
+    "test_tuned_threshold_metrics": {
+        "macro_f1": 0.3611759453497874,
+        "micro_f1": 0.790129825466426,
+        "macro_precision": 0.34765887370539617,
+        "macro_recall": 0.3797468744986872,
+        "hamming_loss": 0.09199170906350104,
+        "subset_accuracy": 0.7233842095345769
+    },
+    "test_tuned_threshold_per_label": {
+        "Neutral": {
+            "precision": 0.8349590323839251,
+            "recall": 0.9857208659603869,
+            "f1": 0.904098014364174,
+            "positive_support": 4342
+        },
+        "IdentityDirectedAbuse": {
+            "precision": 0.30477759472817134,
+            "recall": 0.35992217898832685,
+            "f1": 0.33006244424620873,
+            "positive_support": 514
+        },
+        "AffiliationDirectedAbuse": {
+            "precision": 0.28185328185328185,
+            "recall": 0.30165289256198347,
+            "f1": 0.29141716566866266,
+            "positive_support": 242
+        },
+        "PersonDirectedAbuse": {
+            "precision": 0.2962962962962963,
+            "recall": 0.23628691983122363,
+            "f1": 0.26291079812206575,
+            "positive_support": 237
+        },
+        "CounterSpeech": {
+            "precision": 0.02040816326530612,
+            "recall": 0.015151515151515152,
+            "f1": 0.017391304347826087,
+            "positive_support": 66
+        }
+    }
+}

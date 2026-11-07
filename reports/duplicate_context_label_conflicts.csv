@@ -1,0 +1,12 @@
+﻿duplicate_text,text_length,record_count,record_ids,official_labels,official_splits,different_labels,different_parent_ids,different_threads,unique_parent_count,unique_thread_count,records_with_parent_text,records_without_parent_text,parent_statuses,context_annotations
+Based,5,8,"egie8x0, eke7l80, elkuzqa, em9bshv, es3gqkz, esap64q, etc7loi, esmk5c3",Neutral | PersonDirectedAbuse,test | train,True,True,True,8,8,5,3,parent_missing_from_metadata | same_official_split_parent,NA | PreviousContent
+Based.,6,3,"ek1zitd, elosn7t, es3czpz",IdentityDirectedAbuse | Neutral,dev | train,True,True,True,3,3,3,0,parent_not_in_official_splits | same_official_split_parent,NA | PreviousContent
+Bullshit,8,2,"efktp2u, eqrb6ix",IdentityDirectedAbuse | Neutral,dev | test,True,True,True,2,2,2,0,same_official_split_parent,NA | PreviousContent
+Exactly,7,3,"eqbxdfz, eoc28wy, ejhvym1",IdentityDirectedAbuse | Neutral,dev | train,True,True,True,3,3,2,1,parent_missing_from_metadata | parent_not_in_official_splits | same_official_split_parent,NA | PreviousContent
+Get out,7,3,"elvl06i, epn92ax, eg6i3l3",Neutral | PersonDirectedAbuse,dev | test | train,True,True,True,3,3,2,1,parent_missing_from_metadata | parent_not_in_official_splits | same_official_split_parent,CurrentContent | NA
+No u,4,4,"eg8hizv, eharwrg, etfbzwn, etfe7f7",IdentityDirectedAbuse | Neutral,dev | train,True,True,True,4,3,4,0,same_official_split_parent,NA | PreviousContent
+Same,4,8,"eguuxn9, eh38uft, emk2pkw, eoo4547, epyi763, efleqfz, elej7rq, elftzaz",IdentityDirectedAbuse | Neutral,dev | train,True,True,True,8,7,8,0,same_official_split_parent,NA | PreviousContent
+Seconded.,9,2,"ehzl609, embfmlq",IdentityDirectedAbuse | Neutral,dev | train,True,True,True,2,2,2,0,same_official_split_parent,NA | PreviousContent
+This but unironically,21,3,"eghyrx6, es6gwtk, eldm3gk",IdentityDirectedAbuse | Neutral,test | train,True,True,True,3,3,3,0,same_official_split_parent,NA | PreviousContent
+Yes,3,8,"ej9m5s7, epg8dp0, etsetqo, eu62lz8, eikuq70, ei8sp39, ekylyrc, eqggtob",AffiliationDirectedAbuse | IdentityDirectedAbuse | Neutral,dev | test | train,True,True,True,8,8,6,2,parent_missing_from_metadata | same_official_split_parent,NA | PreviousContent
+Yes.,4,7,"ep0t00b, eslkl3t, esxgrgw, etbamz0, eo0wd2p, ekylxtt, eq17i8b",Neutral | PersonDirectedAbuse,dev | test | train,True,True,True,7,7,5,2,parent_missing_from_metadata | same_official_split_parent,NA | PreviousContent

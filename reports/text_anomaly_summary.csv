@@ -1,0 +1,6 @@
+inspection,count
+Total official records,23417
+Empty comments,1
+Cross-split duplicate texts,78
+Cross-split duplicates with different labels,11
+Comments above 1000 characters,538

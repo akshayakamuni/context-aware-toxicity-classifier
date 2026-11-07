@@ -1,0 +1,13 @@
+﻿input_type,max_length,total_records,truncated_records,truncation_percentage
+Current comment,64,23417,4030,17.21
+Current comment,128,23417,1601,6.84
+Current comment,256,23417,510,2.18
+Current comment,512,23417,133,0.57
+Parent comment,64,12835,3103,24.18
+Parent comment,128,12835,1161,9.05
+Parent comment,256,12835,316,2.46
+Parent comment,512,12835,78,0.61
+Current + parent pair,64,12835,6297,49.06
+Current + parent pair,128,12835,2814,21.92
+Current + parent pair,256,12835,842,6.56
+Current + parent pair,512,12835,182,1.42

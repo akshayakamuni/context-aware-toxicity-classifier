@@ -1,0 +1,4 @@
+split,texts_with_urls,texts_with_usernames,texts_with_subreddit_mentions,texts_with_html_entities,texts_with_html_tags,texts_with_markdown_symbols,texts_with_quote_formatting,texts_with_newlines,texts_with_tabs,texts_with_non_ascii,texts_with_repeated_punctuation
+train,524,92,626,7,6,953,683,0,0,138,1020
+dev,217,31,258,0,3,348,201,0,0,43,315
+test,288,36,191,1,2,349,191,0,0,85,446

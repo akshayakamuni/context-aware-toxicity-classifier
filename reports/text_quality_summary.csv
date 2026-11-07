@@ -1,0 +1,4 @@
+split,total_records,missing_text,empty_text,duplicate_text_rows,unique_texts,minimum_length,maximum_length,mean_length,median_length,std_length,texts_below_10_chars,texts_below_20_chars,texts_above_500_chars,texts_above_1000_chars
+train,13584,0,0,217,13450,1,10865,175.57,88.0,333.01,479,1362,889,291
+dev,4526,0,1,109,4452,0,8924,174.86,75.0,368.79,256,601,324,111
+test,5307,0,0,75,5249,1,10989,198.08,92.0,449.07,186,501,438,136

@@ -1,0 +1,14 @@
+label,context_annotation,records,percentage_within_label
+Neutral,NoAnnotation,18999,99.435
+Neutral,CurrentOnly,108,0.565
+IdentityDirectedAbuse,CurrentOnly,1599,69.371
+IdentityDirectedAbuse,PreviousOnly,603,26.161
+IdentityDirectedAbuse,CurrentAndPrevious,103,4.469
+AffiliationDirectedAbuse,CurrentOnly,860,71.726
+AffiliationDirectedAbuse,PreviousOnly,291,24.27
+AffiliationDirectedAbuse,CurrentAndPrevious,48,4.003
+PersonDirectedAbuse,CurrentOnly,688,65.275
+PersonDirectedAbuse,PreviousOnly,286,27.135
+PersonDirectedAbuse,CurrentAndPrevious,80,7.59
+CounterSpeech,PreviousOnly,194,89.401
+CounterSpeech,CurrentAndPrevious,23,10.599
