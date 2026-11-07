@@ -1,0 +1,173 @@
+{
+    "experiment": "E2_BERT_TextOnly",
+    "input": "current_comment_only",
+    "dataset": "CAD_v1.1",
+    "model_name": "bert-base-uncased",
+    "random_seed": 42,
+    "device": "cpu",
+    "max_length": 256,
+    "batch_size": 8,
+    "epochs_configured": 3,
+    "best_epoch": 3,
+    "best_dev_macro_f1_threshold_0_5": 0.4565171352004521,
+    "learning_rate": 2e-05,
+    "weight_decay": 0.01,
+    "dropout": 0.1,
+    "loss": "BCEWithLogitsLoss",
+    "threshold_selection": "per-label F1 maximization on development set",
+    "thresholds": {
+        "Neutral": 0.14000000059604645,
+        "IdentityDirectedAbuse": 0.07999999821186066,
+        "AffiliationDirectedAbuse": 0.14000000059604645,
+        "PersonDirectedAbuse": 0.30000001192092896,
+        "CounterSpeech": 0.05000000074505806
+    },
+    "split_sizes": {
+        "train": 13584,
+        "dev": 4526,
+        "test": 5307
+    },
+    "epoch_history": [
+        {
+            "epoch": 1,
+            "train_loss": 0.23191519359782672,
+            "dev_macro_f1_threshold_0_5": 0.3559773253673472,
+            "dev_micro_f1_threshold_0_5": 0.8327284724513362,
+            "epoch_seconds": 19807.05350780487
+        },
+        {
+            "epoch": 2,
+            "train_loss": 0.14659830830164158,
+            "dev_macro_f1_threshold_0_5": 0.39422689888488743,
+            "dev_micro_f1_threshold_0_5": 0.8382417582417583,
+            "epoch_seconds": 19350.699590921402
+        },
+        {
+            "epoch": 3,
+            "train_loss": 0.09430769065425712,
+            "dev_macro_f1_threshold_0_5": 0.4565171352004521,
+            "dev_micro_f1_threshold_0_5": 0.8404746209624259,
+            "epoch_seconds": 53543.591502189636
+        }
+    ],
+    "dev_tuned_threshold_metrics": {
+        "macro_f1": 0.49760339056148595,
+        "micro_f1": 0.834622923759414,
+        "macro_precision": 0.48963867683152396,
+        "macro_recall": 0.5112409012067587,
+        "hamming_loss": 0.07083517454706142,
+        "subset_accuracy": 0.7892178524083076,
+        "per_label": {
+            "Neutral": {
+                "precision": 0.86879690147664,
+                "recall": 0.9721018418201517,
+                "f1": 0.917550811709063,
+                "positive_support": 3692
+            },
+            "IdentityDirectedAbuse": {
+                "precision": 0.4892241379310345,
+                "recall": 0.5230414746543779,
+                "f1": 0.5055679287305123,
+                "positive_support": 434
+            },
+            "AffiliationDirectedAbuse": {
+                "precision": 0.5266903914590747,
+                "recall": 0.6016260162601627,
+                "f1": 0.5616698292220114,
+                "positive_support": 246
+            },
+            "PersonDirectedAbuse": {
+                "precision": 0.4968152866242038,
+                "recall": 0.3804878048780488,
+                "f1": 0.430939226519337,
+                "positive_support": 205
+            },
+            "CounterSpeech": {
+                "precision": 0.06666666666666667,
+                "recall": 0.07894736842105263,
+                "f1": 0.07228915662650602,
+                "positive_support": 38
+            }
+        }
+    },
+    "test_default_threshold_metrics": {
+        "macro_f1": 0.4212304989336196,
+        "micro_f1": 0.8314880840683055,
+        "macro_precision": 0.5083696052869062,
+        "macro_recall": 0.3763208992485374,
+        "hamming_loss": 0.06768419069153947,
+        "subset_accuracy": 0.814584511023177,
+        "per_label": {
+            "Neutral": {
+                "precision": 0.8742565845369583,
+                "recall": 0.9479502533394749,
+                "f1": 0.9096132596685083,
+                "positive_support": 4342
+            },
+            "IdentityDirectedAbuse": {
+                "precision": 0.6286764705882353,
+                "recall": 0.3326848249027237,
+                "f1": 0.4351145038167939,
+                "positive_support": 514
+            },
+            "AffiliationDirectedAbuse": {
+                "precision": 0.5352112676056338,
+                "recall": 0.3140495867768595,
+                "f1": 0.3958333333333333,
+                "positive_support": 242
+            },
+            "PersonDirectedAbuse": {
+                "precision": 0.5037037037037037,
+                "recall": 0.2869198312236287,
+                "f1": 0.3655913978494624,
+                "positive_support": 237
+            },
+            "CounterSpeech": {
+                "precision": 0.0,
+                "recall": 0.0,
+                "f1": 0.0,
+                "positive_support": 66
+            }
+        }
+    },
+    "test_tuned_threshold_metrics": {
+        "macro_f1": 0.4484638362001288,
+        "micro_f1": 0.822481030527616,
+        "macro_precision": 0.44675800541237465,
+        "macro_recall": 0.4550187891456646,
+        "hamming_loss": 0.07582438289052196,
+        "subset_accuracy": 0.7767100056529113,
+        "per_label": {
+            "Neutral": {
+                "precision": 0.8631535947712419,
+                "recall": 0.973284200829111,
+                "f1": 0.9149166486252436,
+                "positive_support": 4342
+            },
+            "IdentityDirectedAbuse": {
+                "precision": 0.44064748201438847,
+                "recall": 0.4766536964980545,
+                "f1": 0.45794392523364486,
+                "positive_support": 514
+            },
+            "AffiliationDirectedAbuse": {
+                "precision": 0.428,
+                "recall": 0.44214876033057854,
+                "f1": 0.4349593495934959,
+                "positive_support": 242
+            },
+            "PersonDirectedAbuse": {
+                "precision": 0.4419889502762431,
+                "recall": 0.33755274261603374,
+                "f1": 0.3827751196172249,
+                "positive_support": 237
+            },
+            "CounterSpeech": {
+                "precision": 0.06,
+                "recall": 0.045454545454545456,
+                "f1": 0.05172413793103448,
+                "positive_support": 66
+            }
+        }
+    }
+}

@@ -1,0 +1,7 @@
+{
+    "Neutral": 0.14000000059604645,
+    "IdentityDirectedAbuse": 0.07999999821186066,
+    "AffiliationDirectedAbuse": 0.14000000059604645,
+    "PersonDirectedAbuse": 0.30000001192092896,
+    "CounterSpeech": 0.05000000074505806
+}
