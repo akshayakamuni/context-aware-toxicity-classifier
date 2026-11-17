@@ -1,0 +1,24 @@
+{
+  "experiment": "E3_BERT_context_aware",
+  "test_records": 2875,
+  "thresholds": {
+    "Neutral": 0.05,
+    "IdentityDirectedAbuse": 0.05,
+    "AffiliationDirectedAbuse": 0.08,
+    "PersonDirectedAbuse": 0.09,
+    "CounterSpeech": 0.05
+  },
+  "macro_f1": 0.4463431207212511,
+  "micro_f1": 0.8175301401107853,
+  "macro_precision": 0.4411973646770824,
+  "macro_recall": 0.4545374107843144,
+  "hamming_loss": 0.07791304347826086,
+  "subset_accuracy": 0.7777391304347826,
+  "per_label_f1": {
+    "Neutral": 0.9111599121581154,
+    "IdentityDirectedAbuse": 0.43826086956521737,
+    "AffiliationDirectedAbuse": 0.41739130434782606,
+    "PersonDirectedAbuse": 0.41295546558704455,
+    "CounterSpeech": 0.05194805194805195
+  }
+}
