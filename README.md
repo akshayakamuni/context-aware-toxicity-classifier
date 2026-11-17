@@ -2,9 +2,9 @@
 # Context-Aware Toxicity Classifier
 
 ## Overview
-This research project investigates context-aware toxicity classification by analyzing comments alongside their surrounding conversational context.
+This project investigates context-aware toxicity classification by analyzing comments alongside their surrounding conversational context.
 
-## Research Objectives
+## Objectives
 - Compare comment-only and context-aware toxicity classification.
 - Investigate sarcasm and quotation.
 - Explore auxiliary intent-related signals.
